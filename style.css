@@ -46,6 +46,25 @@ a:focus {
   margin: 0 auto;
 }
 
+.page-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.page-nav a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.page-nav span {
+  color: var(--muted);
+}
+
+.page-header,
 .policy-header {
   padding: 36px;
   margin-bottom: 32px;
